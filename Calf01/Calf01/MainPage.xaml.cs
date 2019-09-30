@@ -31,7 +31,7 @@ namespace Calf01
             };
             Item7.Clicked += async (sender, e) =>
             {
-                //await Navigation.PushAsync(new CarouselPageCode());
+               await Navigation.PushAsync(new TabbedPage());
 
             };
             Item5.Clicked += async (sender, e) =>
