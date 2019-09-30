@@ -8,9 +8,13 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button x:Name="Item1" Text="Navigation"/>
+        <Button x:Name="Item2" Text="TabbedPage1"/>
+        <Button x:Name="Item3" Text="CarouselPage"/>
+        <Button x:Name="Item7" Text="CarouselPageCode"/>
+        <Button x:Name="Item5" Text="ModalPages"/>
+        <Button x:Name="Item6" Text="DisplayAlert"/>
+
     </StackLayout>
 
 </ContentPage>

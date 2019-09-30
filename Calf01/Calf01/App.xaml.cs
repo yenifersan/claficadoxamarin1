@@ -4,9 +4,7 @@ using Xamarin.Forms.Xaml;
 
 namespace Calf01
 {
-    public static MasterDetailPage Modificador { get; set; }
     public partial class App : Application
-
     {
         public App()
         {

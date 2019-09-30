@@ -18,12 +18,12 @@ namespace Calf01
 
             Item1.Clicked += async (sender, e) =>
             {
-                await App.Modificador.Detail.Navigation.PushAsync(new StackLayoutDemo());
+                await App.Modificador.Detail.Navigation.PushAsync(new PantallaItemUno());
                 App.Modificador.IsPresented = false;
             };
             Item2.Clicked += async (sender, e) =>
             {
-                await App.Modificador.Detail.Navigation.PushAsync(new Grid());
+                await App.Modificador.Detail.Navigation.PushAsync(new PantallaItemDos());
                 App.Modificador.IsPresented = false;
             };
             Item3.Clicked += async (sender, e) =>
@@ -36,8 +36,6 @@ namespace Calf01
                 await App.Modificador.Detail.Navigation.PushAsync(new PantallaItemCuatro());
                 App.Modificador.IsPresented = false;
             };
-
-
 
         }
     }
