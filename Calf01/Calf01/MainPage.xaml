@@ -8,12 +8,12 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Button x:Name="Item1" Text="Navigation"/>
-        <Button x:Name="Item2" Text="TabbedPage1"/>
-        <Button x:Name="Item3" Text="CarouselPage"/>
-        <Button x:Name="Item7" Text="CarouselPageCode"/>
-        <Button x:Name="Item5" Text="ModalPages"/>
-        <Button x:Name="Item6" Text="DisplayAlert"/>
+        <Button x:Name="Item1" Text="Page"/>
+        <Button x:Name="Item2" Text="Page2"/>
+        <Button x:Name="Item3" Text="Page3"/>
+        <Button x:Name="Item7" Text="Page4"/>
+        <Button x:Name="Item5" Text="Page5"/>
+        <Button x:Name="Item6" Text="Page6"/>
 
     </StackLayout>
 
